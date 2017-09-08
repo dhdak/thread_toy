@@ -7,7 +7,7 @@ public class Runner {
 		ThreadA a = new ThreadA(service);
 		ThreadB b = new ThreadB(service);
 		a.setName("A");
-		b.setName("B");
+		b.setName("C");//aaa
 		a.start();
 		b.start();
 	}
